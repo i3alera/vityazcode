@@ -5,32 +5,34 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" type="image/x-icon" href="icons/favicon.png">
-        <link rel="stylesheet" type="text/css" href="css/Vitya.css">
+        <link rel="stylesheet" type="text/css" href="css/coolvitya.css">
     </head>
-    <body>
+    <body class="background">
         <!-- Шапка страницы -->
         <div class="header">
+            <div class="headerLink">
             <a class="header_link" href="http://vk.me/id264756050" title="Сообщить разработчику"><img src="icons/help_icon.png" width="45px"></a>
-            <div class="headername">
-                <strong>Test text for header</strong>
+            </div>
+            <div class="headertext">
+                <strong class="headername">Test text for header</strong>
             </div>
             <div class="search">
-            <input class="search" type="search" name="h" placeholder="Витязей повязали">
-            <input class="grab" type="submit" value="Найти"></p>
+            <input class="search" type="search" name="searchheader" placeholder="Витязей повязали">
+            <input class="inputCursorHeader" type="submit" value="Найти"></p>
             </div>
         </div>
         <!-- Наполнение страницы -->
-            <div class="page">
+            <div class="pagediv">
                 <div class="avatar">
-                    <img src="https://sun9-13.userapi.com/s/v1/ig2/sZvOcpqccjoXXa9IvVoGM3r2bNzS6IytdyV_vUEUiCYlmO8M2UAam9hFmKGiLLeNY0Wu3jjvPFIanQ33tJGLmSFg.jpg?size=1080x1350&quality=95&type=album" align="left" width="230">
+                    <img class="avaim" src="https://sun9-13.userapi.com/s/v1/ig2/sZvOcpqccjoXXa9IvVoGM3r2bNzS6IytdyV_vUEUiCYlmO8M2UAam9hFmKGiLLeNY0Wu3jjvPFIanQ33tJGLmSFg.jpg?size=1080x1350&quality=95&type=album" align="left" width="230">
                 </div>
                 <div class="username">
                     <h2>Victor Animechnik</h2>
                     <hr class="separator">
                 </div>
                 <div class="description">
-                   <p>
-                    Test user description Test user description Test user description Test user description<br>
+                   <p class="description">
+                    Привет, это <a class="decorlink" href="https://vk.com/id287882252">Витязь</a><br>
                     123</br>
                     !@#$%^&*()<br>
                     Test br 3<br>
@@ -48,9 +50,9 @@
             </div>
         <!-- Подвал страницы -->
             <div class="footer">
-                <hr class="footsep">
-                <div class="button"> 
-                <input class="grab" type="button" onclick="alert('Данные банковской карты украдены')" value="Don't click" title="НЕ НАЖИМАТЬ!">
+                <hr class="separator">
+                <div class="footerButton"> 
+                <input class="inputCursorFooter" type="button" onclick="alert('Данные банковской карты украдены')" value="Don't click" title="НЕ НАЖИМАТЬ!">
             </div>
     </body>
 </html>
